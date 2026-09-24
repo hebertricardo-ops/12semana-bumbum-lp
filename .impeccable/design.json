@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-17T00:00:00.000Z",
+  "title": "Design System: 12 Planilhas Bumbum 30+",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "#FAF6F0", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(20% 0.012 75)", "oklch(32% 0.014 75)", "oklch(45% 0.016 75)", "oklch(58% 0.016 75)", "oklch(71% 0.015 75)", "oklch(83% 0.013 75)", "oklch(92% 0.011 75)", "oklch(97% 0.009 75)"] },
+      "paper-alt": { "role": "neutral", "displayName": "Paper Alt", "canonical": "#F0E9DF", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(20% 0.016 75)", "oklch(32% 0.018 75)", "oklch(45% 0.020 75)", "oklch(58% 0.021 75)", "oklch(71% 0.020 75)", "oklch(83% 0.018 75)", "oklch(93% 0.015 75)", "oklch(97% 0.012 75)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#17140F", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(15% 0.008 80)", "oklch(26% 0.010 80)", "oklch(38% 0.011 80)", "oklch(50% 0.011 80)", "oklch(63% 0.010 80)", "oklch(75% 0.009 80)", "oklch(86% 0.007 80)", "oklch(95% 0.005 80)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#5C544A", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(16% 0.012 80)", "oklch(27% 0.014 80)", "oklch(39% 0.016 80)", "oklch(51% 0.016 80)", "oklch(63% 0.015 80)", "oklch(75% 0.013 80)", "oklch(86% 0.010 80)", "oklch(95% 0.007 80)"] },
+      "ink-mute": { "role": "neutral", "displayName": "Ink Mute", "canonical": "#8E8477", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(16% 0.014 80)", "oklch(28% 0.016 80)", "oklch(40% 0.018 80)", "oklch(52% 0.019 80)", "oklch(64% 0.018 80)", "oklch(76% 0.015 80)", "oklch(87% 0.012 80)", "oklch(95% 0.008 80)"] },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "#DDD3C7", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(20% 0.018 75)", "oklch(32% 0.020 75)", "oklch(44% 0.022 75)", "oklch(56% 0.023 75)", "oklch(68% 0.022 75)", "oklch(80% 0.020 75)", "oklch(89% 0.017 75)", "oklch(96% 0.012 75)"] },
+      "line-strong": { "role": "neutral", "displayName": "Hairline Strong", "canonical": "#BFB2A2", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(20% 0.020 78)", "oklch(32% 0.023 78)", "oklch(44% 0.026 78)", "oklch(56% 0.027 78)", "oklch(68% 0.026 78)", "oklch(79% 0.023 78)", "oklch(89% 0.019 78)", "oklch(96% 0.013 78)"] },
+      "accent": { "role": "primary", "displayName": "Brand Terracotta", "canonical": "#C2553F", "inherited": "producao/design-system.md", "contrastOnPaper": "4.18:1", "note": "Large display only — fails AA at body size on cream.", "tonalRamp": ["oklch(22% 0.070 35)", "oklch(33% 0.098 35)", "oklch(43% 0.124 35)", "oklch(53% 0.145 35)", "oklch(63% 0.135 35)", "oklch(74% 0.100 35)", "oklch(86% 0.060 35)", "oklch(95% 0.024 35)"] },
+      "action": { "role": "primary", "displayName": "Action Terracotta", "canonical": "#B84A34", "introducedHere": true, "contrastOnPaper": "4.80:1", "note": "Build-introduced variant. Every CTA fill, the hero italic, and all accent text at body size.", "tonalRamp": ["oklch(21% 0.072 34)", "oklch(31% 0.102 34)", "oklch(41% 0.130 34)", "oklch(50% 0.150 34)", "oklch(61% 0.140 34)", "oklch(73% 0.104 34)", "oklch(85% 0.062 34)", "oklch(95% 0.025 34)"] },
+      "action-deep": { "role": "primary", "displayName": "Action Deep", "canonical": "#9E3B28", "introducedHere": true, "note": "Hover/active on primary buttons; hover colour on tinted grounds.", "tonalRamp": ["oklch(19% 0.068 33)", "oklch(28% 0.096 33)", "oklch(37% 0.122 33)", "oklch(45% 0.140 33)", "oklch(57% 0.132 33)", "oklch(70% 0.100 33)", "oklch(84% 0.060 33)", "oklch(94% 0.024 33)"] },
+      "fase-1": { "role": "secondary", "displayName": "Sage — Fundação", "canonical": "#7D8F6E", "inherited": "producao/design-system.md", "contrastOnPaper": "3.24:1", "note": "Ground, rule and bar only. Never text.", "tonalRamp": ["oklch(22% 0.026 130)", "oklch(33% 0.036 130)", "oklch(44% 0.044 130)", "oklch(55% 0.050 130)", "oklch(66% 0.046 130)", "oklch(78% 0.036 130)", "oklch(88% 0.024 130)", "oklch(96% 0.012 130)"] },
+      "fase-2": { "role": "secondary", "displayName": "Ochre — Estímulo", "canonical": "#C08A4E", "inherited": "producao/design-system.md", "contrastOnPaper": "2.79:1", "note": "Ground, rule and bar only. Never text.", "tonalRamp": ["oklch(23% 0.040 70)", "oklch(34% 0.058 70)", "oklch(45% 0.074 70)", "oklch(56% 0.086 70)", "oklch(68% 0.084 70)", "oklch(79% 0.064 70)", "oklch(89% 0.040 70)", "oklch(96% 0.018 70)"] },
+      "fase-3": { "role": "secondary", "displayName": "Terracotta — Intensificação", "canonical": "#C2553F", "inherited": "producao/design-system.md", "contrastOnPaper": "4.18:1", "note": "Same value as the brand accent. Ground, rule and bar only.", "tonalRamp": ["oklch(22% 0.070 35)", "oklch(33% 0.098 35)", "oklch(43% 0.124 35)", "oklch(53% 0.145 35)", "oklch(63% 0.135 35)", "oklch(74% 0.100 35)", "oklch(86% 0.060 35)", "oklch(95% 0.024 35)"] },
+      "fase-4": { "role": "secondary", "displayName": "Wine — Progressão", "canonical": "#8C4A5C", "inherited": "producao/design-system.md", "contrastOnPaper": "6.00:1", "note": "Ground, rule and bar only, for consistency with the other three.", "tonalRamp": ["oklch(20% 0.045 5)", "oklch(30% 0.064 5)", "oklch(40% 0.080 5)", "oklch(50% 0.088 5)", "oklch(62% 0.082 5)", "oklch(74% 0.062 5)", "oklch(86% 0.038 5)", "oklch(95% 0.016 5)"] },
+      "fase-1-soft": { "role": "secondary", "displayName": "Sage Soft", "canonical": "#E4E9DE", "inherited": "producao/design-system.md", "note": "Ground of phase-1 alt bands, the guarantee band, and ::selection.", "tonalRamp": ["oklch(22% 0.012 130)", "oklch(34% 0.016 130)", "oklch(46% 0.019 130)", "oklch(58% 0.021 130)", "oklch(70% 0.020 130)", "oklch(82% 0.017 130)", "oklch(92% 0.012 130)", "oklch(97% 0.007 130)"] },
+      "fase-2-soft": { "role": "secondary", "displayName": "Ochre Soft", "canonical": "#F3E5D2", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(23% 0.018 70)", "oklch(35% 0.024 70)", "oklch(47% 0.029 70)", "oklch(59% 0.032 70)", "oklch(71% 0.030 70)", "oklch(83% 0.025 70)", "oklch(93% 0.017 70)", "oklch(97% 0.009 70)"] },
+      "fase-3-soft": { "role": "secondary", "displayName": "Terracotta Soft", "canonical": "#F3DCD5", "inherited": "producao/design-system.md", "tonalRamp": ["oklch(22% 0.020 35)", "oklch(34% 0.027 35)", "oklch(46% 0.033 35)", "oklch(58% 0.036 35)", "oklch(70% 0.034 35)", "oklch(82% 0.028 35)", "oklch(92% 0.019 35)", "oklch(97% 0.010 35)"] },
+      "fase-4-soft": { "role": "secondary", "displayName": "Wine Soft", "canonical": "#EEDCE1", "inherited": "producao/design-system.md", "note": "Also the only wine-family value allowed to carry text — on dark bands, where it reads as a light tint.", "tonalRamp": ["oklch(21% 0.018 5)", "oklch(33% 0.025 5)", "oklch(45% 0.030 5)", "oklch(57% 0.033 5)", "oklch(69% 0.031 5)", "oklch(81% 0.026 5)", "oklch(92% 0.018 5)", "oklch(97% 0.009 5)"] },
+      "ink-line": { "role": "neutral", "displayName": "Ink Hairline", "canonical": "#3A342C", "introducedHere": true, "note": "The 1px rule on dark bands; also the 1px gap colour in the T.E.P. grid.", "tonalRamp": ["oklch(16% 0.012 80)", "oklch(27% 0.015 80)", "oklch(39% 0.017 80)", "oklch(51% 0.017 80)", "oklch(63% 0.016 80)", "oklch(75% 0.013 80)", "oklch(86% 0.010 80)", "oklch(95% 0.006 80)"] },
+      "ink-raise": { "role": "neutral", "displayName": "Ink Raise", "canonical": "#241F19", "introducedHere": true, "note": "Placeholder-slot and ghost-hover ground on dark bands.", "tonalRamp": ["oklch(15% 0.010 80)", "oklch(26% 0.013 80)", "oklch(38% 0.015 80)", "oklch(50% 0.015 80)", "oklch(63% 0.014 80)", "oklch(75% 0.011 80)", "oklch(86% 0.008 80)", "oklch(95% 0.005 80)"] },
+      "ink-edge": { "role": "neutral", "displayName": "Ink Edge", "canonical": "#4A4239", "introducedHere": true, "note": "Ghost-button border and footer underline colour on dark bands.", "tonalRamp": ["oklch(17% 0.013 80)", "oklch(28% 0.016 80)", "oklch(40% 0.018 80)", "oklch(52% 0.018 80)", "oklch(64% 0.017 80)", "oklch(76% 0.014 80)", "oklch(87% 0.010 80)", "oklch(95% 0.006 80)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only, set as masked lines. Re-clamps to clamp(1.95rem, 7.4vw, 2.6rem) under 1000px." },
+      "headline": { "displayName": "Headline", "purpose": "The opening h2 of every section." },
+      "title": { "displayName": "Title", "purpose": "Subordinate display lines inside a section." },
+      "quote": { "displayName": "Editorial Quote", "purpose": "Pull quotes with a 2px phase-coloured left bar, capped at 44ch. Inherited from the product's C-Quote." },
+      "body": { "displayName": "Body", "purpose": "All prose. 68ch cap on .prose, 62ch on .lede, 66ch on FAQ answers. Steps to 1.125rem at 768px." },
+      "lede": { "displayName": "Lede", "purpose": "The ink-soft paragraph directly under a headline." },
+      "label": { "displayName": "Label", "purpose": "Uppercase metadata attached to an object — plan names, captions, rail entries. Never a section kicker." },
+      "price": { "displayName": "Price", "purpose": "The R$27 / R$47 figures; currency mark drops to 1.4rem body font, raised by vertical-align: 1em." }
+    },
+    "shadows": [
+      { "name": "notebook-cast", "value": "0 26px 54px -22px rgba(23,20,15,.42)", "purpose": "Cast by the drawn laptop in the hero mockup. Illustration only — not available to UI surfaces." },
+      { "name": "phone-cast", "value": "0 20px 38px -14px rgba(23,20,15,.5)", "purpose": "Cast by the drawn phone overlapping the laptop. Illustration only." }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The single easing curve for every CSS transition; its JS twin is expo.out." },
+      { "name": "state", "value": "280ms", "purpose": "Button colour, border and transform transitions." },
+      { "name": "phase-shift", "value": "500ms", "purpose": "Rail opacity and phase-colour crossfades." },
+      { "name": "dock-rise", "value": "450ms", "purpose": "translateY(102%) to 0 on the purchase dock." },
+      { "name": "mask-wipe", "value": "1250ms clip-path inset(0% 0% 100% 0%) to inset(0)", "purpose": "Photographic plate reveal, triggered at top 86% of viewport." },
+      { "name": "plate-parallax", "value": "scale 1.16, yPercent -5 to 5, scrub 0.8", "purpose": "Interior parallax. Scale must exceed total travel or the plate ground shows at the edges." },
+      { "name": "hero-lines", "value": "1150ms yPercent 108 to 0, stagger 85ms", "purpose": "Headline lines rising inside overflow-hidden masks." },
+      { "name": "tilt", "value": "700ms power3.out, rotateX ±7deg / rotateY ±9deg, perspective 1600px", "purpose": "Hero mockup following a fine pointer." }
+    ],
+    "breakpoints": [
+      { "name": "dock-compact", "value": "560px" },
+      { "name": "sheet-meta", "value": "620px" },
+      { "name": "comments", "value": "640px" },
+      { "name": "plans", "value": "720px" },
+      { "name": "body-step", "value": "768px" },
+      { "name": "steps", "value": "760px" },
+      { "name": "tep", "value": "820px" },
+      { "name": "tiers", "value": "880px" },
+      { "name": "split", "value": "900px" },
+      { "name": "hero", "value": "1000px" },
+      { "name": "rail", "value": "1024px" }
+    ],
+    "inheritance": {
+      "source": "C:/projetos/infoprodutos-lowticket/12 PLANILHAS BUMBUM 30+/producao/design-system.md",
+      "inheritedTokens": ["paper", "paper-alt", "ink", "ink-soft", "ink-mute", "line", "line-strong", "accent", "fase-1", "fase-2", "fase-3", "fase-4", "fase-1-soft", "fase-2-soft", "fase-3-soft", "fase-4-soft", "display font Fraunces", "uppercase label grammar", "1px hairline table pattern", "C-Quote", "8px phase stripe"],
+      "introducedHere": ["action", "action-deep", "ink-line", "ink-raise", "ink-edge", "body font Libre Franklin", "the type ramp as clamps", "the band/wrap/rail layout model", "the 12-symbol inline SVG icon sprite", "the phase field on .band.on-alt / .band.on-dark", "the purchase dock", "the mask-wipe motion system"],
+      "divergences": [
+        "The PDF pairs Fraunces with Inter; this build pairs it with Libre Franklin.",
+        "The PDF draws icons from the lucide library; the page authors its own 12-symbol inline SVG sprite at 1.5 stroke, because no icon library is loaded and the copy's emoji are not icons.",
+        "The direction contract specified a hero display of clamp(44px, 6vw, 86px); the shipped hero is clamp(2.35rem, 3.9vw, 3.5rem) (about 38–56px), re-clamping to clamp(1.95rem, 7.4vw, 2.6rem) under 1000px.",
+        "The contract said 'terracota só em ação'; the build splits the tone in two — brand #C2553F for display and phase 3, action #B84A34 for every action and body-size accent — because #C2553F measures 4.18:1 on cream and fails AA."
+      ]
+    },
+    "suppressedDetectorFindings": [
+      { "rule": "overused-font", "value": "fraunces", "why": "Fraunces is the delivered product's face; page-product consistency is a recorded product principle. Pinned by the user with the real product page as binding reference." },
+      { "rule": "cream-palette", "value": "*", "why": "#FAF6F0 is the delivered product's paper, visible in the binding reference. Single full-page property." },
+      { "rule": "cramped-padding", "value": "*", "why": "Per-side browser measurement returned zero real cases; the 41 findings come from the inherited hairline-table grammar and from .band carrying only padding-block while the inner .wrap carries padding-inline." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The purchase action. Square, action-terracotta, lifts 2px on hover.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Quero o Completo</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 56px; padding: 1rem 2.1rem; font-family: 'Libre Franklin', system-ui, sans-serif; font-size: 1.0625rem; font-weight: 600; letter-spacing: 0.005em; text-decoration: none; border-radius: 0; border: 1px solid transparent; cursor: pointer; transition: background-color .28s cubic-bezier(0.16,1,0.3,1), color .28s cubic-bezier(0.16,1,0.3,1), border-color .28s cubic-bezier(0.16,1,0.3,1), transform .28s cubic-bezier(0.16,1,0.3,1); } .ds-btn-primary { background: #B84A34; color: #FAF6F0; } .ds-btn-primary:hover { background: #9E3B28; transform: translateY(-2px); } .ds-btn-primary:active { transform: translateY(0); } .ds-btn-primary:focus-visible { outline: 2px solid #B84A34; outline-offset: 3px; border-radius: 0; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The secondary offer. Hairline border on paper, never a fill at rest.",
+      "html": "<a class=\"ds-btn ds-btn-ghost\" href=\"#\">Quero o Básico</a>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 1rem 2.1rem; font-family: 'Libre Franklin', system-ui, sans-serif; font-size: 1.0625rem; font-weight: 600; text-decoration: none; border-radius: 0; background: transparent; color: #17140F; border: 1px solid #BFB2A2; cursor: pointer; transition: background-color .28s cubic-bezier(0.16,1,0.3,1), border-color .28s cubic-bezier(0.16,1,0.3,1); } .ds-btn-ghost:hover { border-color: #17140F; background: #F0E9DF; } .ds-btn-ghost:focus-visible { outline: 2px solid #B84A34; outline-offset: 3px; }"
+    },
+    {
+      "name": "Plan Card",
+      "kind": "card",
+      "refersTo": "plan-lead",
+      "description": "The lead price card: 2px action border, square corner flag, Fraunces price with a raised currency mark.",
+      "html": "<article class=\"ds-plan ds-plan-lead\"><span class=\"ds-plan-flag\">Mais escolhido</span><p class=\"ds-label\">Completo</p><p class=\"ds-plan-price\"><span>R$</span>47</p><p class=\"ds-plan-was\"><s>R$494</s> <span>somando as peças avulsas</span></p><p class=\"ds-plan-what\">As 12 planilhas <strong>+ os 5 bônus</strong></p><a class=\"ds-btn ds-btn-primary\" href=\"#\">Quero o Completo</a></article>",
+      "css": ".ds-plan { border: 1px solid #BFB2A2; padding: clamp(1.5rem,3vw,2.25rem); display: flex; flex-direction: column; gap: 0.5rem; position: relative; border-radius: 0; background: #FAF6F0; font-family: 'Libre Franklin', system-ui, sans-serif; color: #17140F; } .ds-plan-lead { border: 2px solid #B84A34; } .ds-plan-flag { position: absolute; top: 0; right: 0; background: #B84A34; color: #FAF6F0; padding: 0.45rem 0.95rem; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; } .ds-label { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #5C544A; margin: 0; } .ds-plan-price { font-family: Fraunces, Georgia, serif; font-size: clamp(3rem,6vw,4.6rem); font-weight: 600; line-height: 1; letter-spacing: -0.035em; font-variant-numeric: tabular-nums lining-nums; margin: 0; } .ds-plan-price span { font-size: 1.4rem; vertical-align: 1em; margin-right: 0.2rem; color: #5C544A; font-family: 'Libre Franklin', system-ui, sans-serif; font-weight: 600; letter-spacing: 0; } .ds-plan-was { font-size: 0.95rem; color: #5C544A; margin: 0 0 0.15rem; } .ds-plan-was s { text-decoration-thickness: 1px; margin-right: 0.35rem; } .ds-plan-what { color: #5C544A; font-size: 1rem; margin: 0 0 1rem; } .ds-plan-what strong { color: #17140F; font-weight: 600; } .ds-plan .ds-btn { margin-top: auto; width: 100%; }"
+    },
+    {
+      "name": "Hairline Parameter Table",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "The inherited table grammar: label left in soft ink, value right in tabular 600, a 1px rule under every row, no fills.",
+      "html": "<table class=\"ds-params\"><tbody><tr><th scope=\"row\">Treinos</th><td>3 (A, B, C)</td></tr><tr><th scope=\"row\">Séries</th><td>3 por exercício</td></tr><tr><th scope=\"row\">Repetições</th><td>10 a 12</td></tr><tr><th scope=\"row\">Carga</th><td>Peso corporal</td></tr></tbody></table>",
+      "css": ".ds-params { width: 100%; border-collapse: collapse; font-family: 'Libre Franklin', system-ui, sans-serif; color: #17140F; } .ds-params th, .ds-params td { text-align: left; padding: 0.7rem 0; border-bottom: 1px solid #DDD3C7; } .ds-params th { font-weight: 400; color: #5C544A; font-size: 0.95rem; } .ds-params td { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums lining-nums; }"
+    },
+    {
+      "name": "Editorial Quote",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Inherited C-Quote: italic Fraunces with a 2px phase-coloured left bar, capped at 44ch.",
+      "html": "<p class=\"ds-quote\">E daqui a três meses você vai estar exatamente onde está — ou 12 planilhas à frente.</p>",
+      "css": ".ds-quote { font-family: Fraunces, Georgia, serif; font-style: italic; font-size: clamp(1.25rem,2.3vw,1.75rem); line-height: 1.34; font-variation-settings: 'SOFT' 30, 'WONK' 1; border-left: 2px solid var(--phase, #7D8F6E); padding-left: clamp(1rem,2.4vw,1.75rem); color: #17140F; max-width: 44ch; margin: 0; }"
+    },
+    {
+      "name": "Placeholder Slot",
+      "kind": "card",
+      "refersTo": "slot",
+      "description": "The honest placeholder. Dashed hairline on paper-alt, sized to the real content it awaits. Shipped, not scaffolding.",
+      "html": "<blockquote class=\"ds-slot\"><svg class=\"ds-slot-ico\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9.5 5.5C6.4 7 4.8 9.6 4.8 13.1v5.4h6.1v-6.2H7.7c0-2.3.9-4 2.7-5.1zM20.2 5.5C17.1 7 15.5 9.6 15.5 13.1v5.4h6.1v-6.2h-3.2c0-2.3.9-4 2.7-5.1z\"/></svg><p>[DEPOIMENTO — a inserir]</p><footer class=\"ds-slot-label\">— [Nome], [idade] anos</footer></blockquote>",
+      "css": ".ds-slot { background: #F0E9DF; border: 1px dashed #BFB2A2; color: #5C544A; display: flex; flex-direction: column; justify-content: center; gap: 0.75rem; padding: clamp(1.25rem,3vw,2rem); min-height: 190px; margin: 0; font-family: 'Libre Franklin', system-ui, sans-serif; } .ds-slot-ico { color: #BFB2A2; } .ds-slot p { font-size: 0.92rem; font-weight: 600; letter-spacing: 0.04em; margin: 0; } .ds-slot-label { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #5C544A; }"
+    },
+    {
+      "name": "Phase Rail",
+      "kind": "nav",
+      "refersTo": "rail",
+      "description": "Fixed 96px left rail at 1024px and up. Orientation, not links: wordmark, four phase markers, current week over /12.",
+      "html": "<aside class=\"ds-rail\"><div class=\"ds-rail-inner\"><span class=\"ds-rail-mark\">12<br>PLANILHAS</span><ol class=\"ds-rail-phases\"><li class=\"is-live\" data-p=\"1\"><i></i><span>Fundação</span><em>01–03</em></li><li data-p=\"2\"><i></i><span>Estímulo</span><em>04–06</em></li><li data-p=\"3\"><i></i><span>Intensificação</span><em>07–09</em></li><li data-p=\"4\"><i></i><span>Progressão</span><em>10–12</em></li></ol><span class=\"ds-rail-week\"><b>01</b><span>/12</span></span></div></aside>",
+      "css": ".ds-rail { width: 96px; height: 640px; border-right: 1px solid #DDD3C7; background: #FAF6F0; font-family: 'Libre Franklin', system-ui, sans-serif; } .ds-rail-inner { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding-block: 1.6rem; padding-inline: 0.5rem; } .ds-rail-mark { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; line-height: 1.5; text-align: center; color: #5C544A; text-transform: uppercase; } .ds-rail-phases { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1.9rem; align-items: center; } .ds-rail-phases li { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; opacity: 0.32; transition: opacity .5s cubic-bezier(0.16,1,0.3,1); } .ds-rail-phases li.is-live { opacity: 1; } .ds-rail-phases i { width: 9px; height: 46px; display: block; background: #BFB2A2; transition: background-color .5s cubic-bezier(0.16,1,0.3,1); } .ds-rail-phases li[data-p=\"1\"].is-live i { background: #7D8F6E; } .ds-rail-phases li[data-p=\"2\"].is-live i { background: #C08A4E; } .ds-rail-phases li[data-p=\"3\"].is-live i { background: #C2553F; } .ds-rail-phases li[data-p=\"4\"].is-live i { background: #8C4A5C; } .ds-rail-phases span { writing-mode: vertical-rl; font-size: 0.66rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #5C544A; } .ds-rail-phases em { font-style: normal; font-size: 0.64rem; color: #5C544A; letter-spacing: 0.06em; font-variant-numeric: tabular-nums; } .ds-rail-week { display: flex; flex-direction: column; align-items: center; line-height: 1; } .ds-rail-week b { font-family: Fraunces, Georgia, serif; font-size: 1.5rem; font-weight: 600; color: #7D8F6E; font-variant-numeric: tabular-nums; } .ds-rail-week > span { font-size: 0.66rem; color: #5C544A; letter-spacing: 0.08em; }"
+    },
+    {
+      "name": "Purchase Dock",
+      "kind": "nav",
+      "refersTo": "dock",
+      "description": "Fixed bottom action bar. Rises only after the first price section has been passed; hides inside the final price section; inert while hidden.",
+      "html": "<div class=\"ds-dock is-up\"><div class=\"ds-dock-in\"><p class=\"ds-dock-txt\"><b>Completo</b><span>R$47</span></p><a class=\"ds-btn ds-btn-primary ds-dock-cta\" href=\"#\">Quero o Completo</a></div></div>",
+      "css": ".ds-dock { background: #FAF6F0; border-top: 1px solid #BFB2A2; transform: translateY(102%); transition: transform .45s cubic-bezier(0.16,1,0.3,1); font-family: 'Libre Franklin', system-ui, sans-serif; } .ds-dock.is-up { transform: translateY(0); } .ds-dock-in { display: flex; align-items: center; gap: 1rem; padding: 0.7rem clamp(1.25rem,4vw,2.5rem); } .ds-dock-txt { display: flex; align-items: baseline; gap: 0.5rem; white-space: nowrap; margin: 0; } .ds-dock-txt b { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #5C544A; } .ds-dock-txt span { font-family: Fraunces, Georgia, serif; font-size: 1.6rem; font-weight: 600; color: #17140F; font-variant-numeric: tabular-nums; } .ds-dock-cta { margin-left: auto; min-height: 50px; padding-inline: 1.5rem; background: #B84A34; color: #FAF6F0; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; font-weight: 600; border-radius: 0; } .ds-dock-cta:hover { background: #9E3B28; } @media (max-width: 560px) { .ds-dock-txt b { display: none; } .ds-dock-cta { flex: 1; } }"
+    },
+    {
+      "name": "Icon Set",
+      "kind": "chip",
+      "refersTo": null,
+      "description": "The authored 12-symbol inline sprite at one stroke weight (1.5), 24x24 box, fill none, stroke currentColor. Replaces the copy's emoji.",
+      "html": "<div class=\"ds-icons\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3.5\" y=\"3\" width=\"17\" height=\"18\"/><path d=\"M3.5 8.5h17M3.5 14h17M9.5 8.5V21M15 8.5V21\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2.5\" y=\"4.5\" width=\"19\" height=\"15\"/><path d=\"M10.5 9.2v5.6l4.6-2.8z\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2.5\" y=\"7.5\" width=\"19\" height=\"9\"/><path d=\"M6.7 7.5v3.2M10.9 7.5v4.6M15.1 7.5v3.2M19.3 7.5v4.6\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3.5 10.4 12 3.5l8.5 6.9V20a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5z\"/><path d=\"M9.5 20.5v-6h5v6\"/></svg><svg class=\"ds-ico-yes\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m4.5 12.6 4.7 4.7 10.3-10.6\"/></svg><svg class=\"ds-ico-no\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 2.8 4.5 5.6v6.1c0 4.4 3.1 8.4 7.5 9.5 4.4-1.1 7.5-5.1 7.5-9.5V5.6z\"/><path d=\"m8.6 11.9 2.5 2.5 4.3-4.6\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4.5\" y=\"10.5\" width=\"15\" height=\"10\"/><path d=\"M8 10.5V7.8a4 4 0 0 1 8 0v2.7\"/></svg></div>",
+      "css": ".ds-icons { display: flex; flex-wrap: wrap; gap: 1.1rem; align-items: center; color: #5C544A; } .ds-icons svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; } .ds-ico-yes { color: #7D8F6E; } .ds-ico-no { color: #8E8477; }"
+    },
+    {
+      "name": "Masked Photographic Plate",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Every image in the system. Overflow-hidden rectangle on paper-alt, image cover-fitted, revealed by a clip-path wipe with interior parallax at scale 1.16 against a ±5% travel.",
+      "html": "<figure class=\"ds-plate\"><img src=\"assets/img/custo-parada-768.webp\" width=\"768\" height=\"1024\" alt=\"Mulher em isometria na parede, sozinha na sala.\"><figcaption class=\"ds-plate-note\">Adaptação em casa, sem equipamento.</figcaption></figure>",
+      "css": ".ds-plate { position: relative; overflow: hidden; background: #F0E9DF; aspect-ratio: 3/4; margin: 0; border-radius: 0; animation: ds-wipe 1.25s cubic-bezier(0.16,1,0.3,1) both; } .ds-plate img { display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(1.16) translateY(-5%); } .ds-plate-note { position: absolute; left: 0; bottom: 0; background: #FAF6F0; padding: 0.7rem 1rem; font-family: 'Libre Franklin', system-ui, sans-serif; font-size: 0.85rem; font-weight: 500; color: #5C544A; max-width: 80%; } @keyframes ds-wipe { from { clip-path: inset(0% 0% 100% 0%); } to { clip-path: inset(0% 0% 0% 0%); } } @media (prefers-reduced-motion: reduce) { .ds-plate { animation: none; } .ds-plate img { transform: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Worksheet, Unbound",
+    "overview": "This system is inherited, not invented. Its palette, its display face and its four phase colours come from the delivered PDF product, and the page exists to look like the thing it sells. That is a price argument before it is a taste: the buyer sees the artefact before she owns it. The landing page took the worksheet's paper, ink, hairline rules and phase ramp and unrolled them down a single scroll, so that descending the page is walking the 12-week programme.\n\nThe character is warm-paper editorial at working temperature, not at gallery temperature. Cream ground (#FAF6F0), near-black ink, one accent at a time, generous air. Nothing is rounded, nothing floats, nothing glows. A 1px rule is the only separator in the system — there are no cards with shadows, no pills, no badges, no decorative gradient. Where a surface needs to separate itself, it changes ground colour or grows a hairline; it never lifts.\n\nThe one authored move on top of the inheritance is temperature. The four phase colours are not accents applied to details — they are the ground of the page itself, so the surface warms sage → ochre → terracotta → wine as the visitor descends. Motion carries one idea consistently: photography arrives as a clip-path wipe with a slow parallax inside the plate. Confirmed rejections, both from the product and from the build: the standard info-product sales page (pills, badges, countdowns, emoji-as-icon, equal-weight stacked boxes), and decorative depth of any kind on page surfaces.",
+    "keyCharacteristics": [
+      "Warm cream paper, near-black ink, one accent at a time",
+      "Straight corners everywhere — zero border-radius in the system",
+      "1px rules as the only separator; grounds change, surfaces never lift",
+      "Four phase colours as full-page fields, warming down the scroll",
+      "Fraunces variable display (SOFT/WONK axes used) over Libre Franklin body",
+      "Uppercase labels at wide tracking (0.16em) as the only small-type voice",
+      "Browser chrome themed from the palette: selection, caret, focus ring, scrollbar",
+      "One authored motion idea: masked wipe plus interior parallax"
+    ],
+    "rules": [
+      { "name": "The Phase-Never-Speaks Rule", "body": "Phase colour lives only in grounds, 1px rules and bars. It never carries text. As text on cream the four tones measure 3.24 / 2.79 / 4.18 / 6.00 to 1 — three of four fail AA. The single sanctioned exception is .sheet-week (\"Semana 1\" inside the hero mockup): large display type at ≥3:1, reproducing the real product page.", "section": "colors" },
+      { "name": "The Two Terracottas Rule", "body": "accent (#C2553F) is the brand tone and is for large display only. action (#B84A34) is the CTA and body-size accent, because the brand tone stops at 4.18:1 on cream and fails AA while the action tone reaches 4.80:1. If new accent text is smaller than display, it takes action. They are not interchangeable and must not be merged.", "section": "colors" },
+      { "name": "The Heat-Is-A-Field Rule", "body": "Phase colour is the ground of whole sections, not a detail on them: .band.on-alt takes var(--phase-soft) and .band.on-dark takes color-mix(in oklab, var(--color-ink) 92%, var(--phase)). A new section declares data-phase and inherits its temperature; it never hand-picks a tint.", "section": "colors" },
+      { "name": "The Numerals-Are-Tabular Rule", "body": "Every figure the reader may compare — prices, week counters, the anchor table, worksheet parameters — carries font-variant-numeric: tabular-nums lining-nums via .num. Numbers in this system line up in columns even when they are prose.", "section": "typography" },
+      { "name": "The No-Kicker Rule", "body": "Sections open on the headline. Position in the programme is read from the phase rail and the section's own ground, never from a small coloured word above the title. The .label class exists for metadata attached to an object (a plan, a photo, a rail entry), not for announcing a section.", "section": "typography" },
+      { "name": "The Variable-Axis Rule", "body": "Fraunces is used as a variable face, not as a static weight. Heading emphasis comes from SOFT and WONK, and weight stays at 600; font-synthesis-weight: none is set globally so nothing fakes a weight the file does not have.", "section": "typography" },
+      { "name": "The Ground-Change-Is-The-Rule Rule", "body": "Sections separate by changing ground (paper → phase-soft → ink) or by a single hairline. They never separate by adding a box.", "section": "layout" },
+      { "name": "The Cascade-Order Rule", "body": "src/sections.css is @imported at the top of src/app.css, so its rules land earlier inside the same @layer components and lose to app.css's own .on-alt / .on-dark. The phase-field overrides therefore carry deliberate extra specificity — .band.on-alt, .band.on-dark, .site-foot.on-alt — and must keep it. An override written as bare .on-alt in sections.css will silently do nothing.", "section": "layout" },
+      { "name": "The Flat-Page Rule", "body": "No page surface casts a shadow. If a new element needs to read as raised, change its ground or give it a hairline. Shadows exist in this build only inside a drawing of a physical object.", "section": "elevation" },
+      { "name": "The Straight-Corner Rule", "body": "Nothing in this system is rounded. Not buttons, not inputs, not images, not the focus ring, not the dock. A radius anywhere is a defect.", "section": "shapes" },
+      { "name": "The Cover-The-Travel Rule", "body": "A parallaxed plate image is set at scale: 1.16 against a ±5% travel. The scale must always exceed the total travel, or the plate's own ground shows at the edges at the ends of the scrub. That was a real shipped bug; the 1.16 is the fix, not a taste.", "section": "components" },
+      { "name": "The Function-Survives-Motion Rule", "body": "prefers-reduced-motion takes a full static fallback, not a disabled page. All reveals are set to their final state, and a scroll listener still drives the rail's phase and week, the mobile progress bar, and the dock's appear/hide logic. Orientation and action are function, not decoration; only the animation is optional. The same holds without JS at all — the page ships readable and complete.", "section": "components" }
+    ],
+    "dos": [
+      "Do give every new section a data-phase attribute and let it inherit its ground, rule and bar colour from --phase / --phase-soft.",
+      "Do use action (#B84A34) for CTA fills and for any accent text at body size; reserve accent (#C2553F) for large display.",
+      "Do separate with a 1px line rule, or by changing the ground — those are the only two separators in the system.",
+      "Do keep every corner square, including on images, badges, flags and the focus ring.",
+      "Do set labels in uppercase Libre Franklin 600 at 0.78rem / 0.16em tracking, attached to an object.",
+      "Do add .num to any figure a reader might compare.",
+      "Do draw new icons into the inline sprite at 24×24 on a 1.5 stroke, fill: none, stroke: currentColor.",
+      "Do write phase-field overrides with the compound selector (.band.on-alt, not .on-alt) — sections.css loses the cascade to app.css otherwise.",
+      "Do keep a parallaxed image's scale larger than its total travel (currently 1.16 against ±5%).",
+      "Do ship missing proof as a marked, correctly-sized placeholder slot."
+    ],
+    "donts": [
+      "Don't set text in a phase colour. The one exception is the large sage \"Semana 1\" inside the hero mockup, which reproduces the real product page.",
+      "Don't merge the two terracottas or use accent on a button.",
+      "Don't put a shadow on a page surface. The two shadows in the build belong to drawn physical objects in the hero mockup and do not extend to UI.",
+      "Don't round anything.",
+      "Don't add a decorative gradient. The one gradient in the build is the bevel of the drawn notebook base.",
+      "Don't use emoji as icons — the sprite exists precisely to replace the copy's 📋🎥📐🏠⚡🎁.",
+      "Don't introduce pills, badges, countdowns, or equal-weight stacked boxes; the page refuses the default info-product grammar.",
+      "Don't let the dock appear before the first price section has been passed, or leave it focusable while hidden.",
+      "Don't hide orientation or action behind prefers-reduced-motion; reduce movement, never function.",
+      "Don't put a kicker or eyebrow above a section headline."
+    ]
+  }
+}

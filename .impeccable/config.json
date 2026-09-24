@@ -1,0 +1,41 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "fraunces",
+        "createdAt": "2026-09-17T18:46:12.988Z",
+        "reason": "Usuario confirmou: enviou print do entregavel real (planilha Semana 1) e pediu 'utilize como referencia de layout (cores e tipografia)'. Fraunces e a face do produto entregue; consistencia pagina-produto e principio de produto registrado em PRODUCT.md."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-17T18:46:13.912Z",
+        "reason": "Falso positivo estrutural: medicao por lado no navegador (so lados com borda real, ignorando conteudo nao renderizado) retorna zero texto a menos de 8px de um limite visivel. Os 41 achados vem da gramatica de tabela do design system herdado (celulas separadas por rachuras de 1px sobre fundo) e de .band que tem padding-block enquanto .wrap interno cuida do padding-inline."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-17T18:46:42.643Z",
+        "reason": "Usuario confirmou: #FAF6F0 e o papel do entregavel real (producao/design-system.md), visivel no print enviado como referencia vinculante de cor. Propriedade unica de pagina inteira, sem risco de mascarar outro achado."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "app/src/styles.css"
+        ],
+        "createdAt": "2026-09-18T03:27:33.118Z",
+        "reason": "Falso positivo: a regra de 3px esta em .pull-quote (citacao editorial em <p> solto), nao em card. Verificado: os 3 usos (Problem.jsx:87, Close.jsx:219, Close.jsx:274) sao <p> sem .card, e nenhum card do projeto tem borda de acento lateral. Regua de citacao e gramatica do design system herdado do entregavel ('Reguas de 1px como separador', PRODUCT.md), com a cor da fase corrente."
+      }
+    ]
+  }
+}
