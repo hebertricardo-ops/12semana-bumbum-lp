@@ -16,7 +16,6 @@ export function Photo({
 
   return (
     <picture>
-      <source type="image/avif" srcSet={srcset('avif')} sizes={sizes} />
       <source type="image/webp" srcSet={srcset('webp')} sizes={sizes} />
       <img
         src={fallback}

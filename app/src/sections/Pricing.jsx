@@ -22,7 +22,7 @@ function Plano({ destaque, nome, preco, resumo, itens, ausentes, incluiBasico, o
       )}
 
       <Spotlight
-        className="card h-full"
+        className="card card--bordered h-full"
         strength={destaque ? 0.13 : 0.07}
       >
         <div
