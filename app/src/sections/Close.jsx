@@ -139,14 +139,14 @@ export function Anchor() {
                 <Spotlight className="card h-full" strength={0.08}>
                   <div className="flex h-full flex-col items-center p-6 text-center">
                     {/* Mockup acima, maior e centralizado */}
-                    <div className="mb-5 flex w-full items-center justify-center">
+                    <div className="mb-2 flex w-full items-center justify-center">
                       <img
                         src={`/img/bonus-${item.id}-480.webp`}
                         alt={item.titulo}
-                        width={200}
-                        height={284}
+                        width={224}
+                        height={318}
                         decoding="async"
-                        className="h-auto w-48 object-contain drop-shadow-lg"
+                        className="h-auto w-56 object-contain drop-shadow-lg"
                       />
                     </div>
 
