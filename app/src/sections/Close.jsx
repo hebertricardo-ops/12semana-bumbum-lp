@@ -132,44 +132,42 @@ export function Anchor() {
             </p>
           </Reveal>
 
-          {/* Grid de bônus: mockup inline com texto */}
+          {/* Grid de bônus: mockup acima do texto, centralizado */}
           <RevealGroup as="ul" className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {itens.map((item) => (
               <RevealItem as="li" key={item.id}>
                 <Spotlight className="card h-full" strength={0.08}>
-                  <div className="flex h-full gap-5 p-6">
-                    {/* Mockup à esquerda */}
-                    <div className="flex w-28 shrink-0 items-start justify-center">
+                  <div className="flex h-full flex-col items-center p-6 text-center">
+                    {/* Mockup acima, maior e centralizado */}
+                    <div className="mb-5 flex w-full items-center justify-center">
                       <img
                         src={`/img/bonus-${item.id}-480.webp`}
                         alt={item.titulo}
-                        width={112}
-                        height={159}
+                        width={200}
+                        height={284}
                         decoding="async"
-                        className="h-auto w-full object-contain"
+                        className="h-auto w-48 object-contain drop-shadow-lg"
                       />
                     </div>
 
-                    {/* Conteúdo à direita */}
-                    <div className="flex min-w-0 flex-col">
-                      <span
-                        className="mb-2 inline-block w-fit rounded-[var(--radius-pill)] px-3 py-1 text-[0.7rem] font-semibold uppercase tracking-wide"
-                        style={{
-                          background: 'var(--color-brand)',
-                          color: 'var(--color-paper)',
-                        }}
-                      >
-                        <s>R${item.valor}</s> - GRÁTIS
-                      </span>
+                    {/* Badge GRÁTIS */}
+                    <span
+                      className="mb-3 inline-block w-fit rounded-[var(--radius-pill)] px-3 py-1 text-[0.7rem] font-semibold uppercase tracking-wide"
+                      style={{
+                        background: 'var(--color-brand)',
+                        color: 'var(--color-paper)',
+                      }}
+                    >
+                      <s>R${item.valor}</s> - GRÁTIS
+                    </span>
 
-                      <h3 className="display-md text-[1.05rem] leading-tight">{item.numero} · {item.titulo}</h3>
-                      <p className="prose-body mt-2 text-[0.9rem] leading-snug">{item.texto}</p>
+                    <h3 className="display-md text-[1.05rem] leading-tight">{item.numero} · {item.titulo}</h3>
+                    <p className="prose-body mt-2 text-[0.9rem] leading-snug">{item.texto}</p>
 
-                      <p className="mt-auto pt-3 text-[0.95rem] font-semibold flex items-center gap-2 flex-wrap">
-                        <s className="num text-[rgba(250,246,240,0.5)]">R${item.valor}</s>
-                        <span style={{ color: 'var(--color-brand)' }}>Grátis</span>
-                      </p>
-                    </div>
+                    <p className="mt-auto pt-3 text-[0.95rem] font-semibold flex items-center justify-center gap-2 flex-wrap">
+                      <s className="num text-[rgba(250,246,240,0.5)]">R${item.valor}</s>
+                      <span style={{ color: 'var(--color-brand)' }}>Grátis</span>
+                    </p>
                   </div>
                 </Spotlight>
               </RevealItem>
