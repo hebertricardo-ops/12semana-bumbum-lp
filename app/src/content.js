@@ -192,7 +192,15 @@ export const NAO_SERVE = [
 export const FAQ = [
   {
     p: 'Como vou receber o acesso?',
-    r: 'Por e-mail, em até 2 minutos depois da confirmação. Abre no celular, tablet e computador.',
+    r: 'Assim que o pagamento for confirmado, você recebe um e-mail com o link da sua área de membros. É lá que ficam as 12 planilhas e os 6 bônus — tudo organizado, para baixar ou acessar direto do celular, tablet e computador.',
+  },
+  {
+    p: 'O pagamento é seguro?',
+    r: 'Sim. O pagamento é processado pela Cakto, uma plataforma brasileira com criptografia de dados, antifraude automático e conformidade com as normas do Banco Central. Seus dados de cartão nunca passam por este site — tudo acontece em ambiente seguro da Cakto.',
+  },
+  {
+    p: 'Posso pagar no Pix?',
+    r: 'Sim: Pix, cartão de crédito e boleto. No Pix, a confirmação é instantânea e o acesso chega no mesmo minuto.',
   },
   {
     p: 'Por quanto tempo tenho acesso?',
@@ -205,10 +213,6 @@ export const FAQ = [
   {
     p: 'Em quanto tempo vejo resultado?',
     r: 'Sensação de ativação na primeira semana. Mudança de medida costuma aparecer entre a sexta e a oitava semana, com três treinos semanais e proteína adequada.',
-  },
-  {
-    p: 'Posso pagar no Pix?',
-    r: 'Sim: Pix, cartão e boleto.',
   },
   {
     p: 'Tem garantia?',
