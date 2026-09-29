@@ -78,30 +78,40 @@ export function Fit() {
 }
 
 /* ---------- 9 · PROVA SOCIAL ----------
-   Slots dimensionados para o depoimento real. Nada fabricado. */
+   Feedbacks reais de compradoras. Imagens otimizadas em WebP. */
 export function Testimonials() {
+  const feedbacks = [
+    { img: 'feedback1', alt: 'Feedback de compradora sobre o programa de treino' },
+    { img: 'feedback2', alt: 'Feedback de compradora sobre os resultados do método' },
+    { img: 'feedback3', alt: 'Feedback de compradora sobre a experiência com as planilhas' },
+  ];
+
   return (
     <section className="band on-alt" style={{ '--phase': 'var(--color-phase-3)' }}>
       <div className="wrap">
         <Reveal>
-          <h2 className="display-lg max-sm:mx-auto max-sm:text-center mx-auto text-center">
-            O que muda na <span style={{ color: 'var(--color-brand)' }}>primeira semana</span>
+          <h2 className="display-lg mx-auto text-center">
+            Quem já começou está <span style={{ color: 'var(--color-brand)' }}>sentindo a diferença</span>
           </h2>
           <p className="lede mt-4 max-w-[46ch] mx-auto text-center">
-            Depoimento que vale alguma coisa fala do que ela sentiu, nunca de quem ensinou.
+            Mensagens reais de quem baixou as planilhas e começou a treinar com o Método T.E.P.
           </p>
         </Reveal>
 
-        <RevealGroup as="ul" className="mt-9 grid gap-4 md:grid-cols-3">
-          {[0, 1, 2].map((i) => (
-            <RevealItem as="li" key={i}>
-              <blockquote className="slot flex h-full min-h-[190px] flex-col items-center gap-3 p-6 text-center">
-                <Icon name="quote" size={20} />
-                <p className="text-[0.92rem] font-medium tracking-wide">
-                  [DEPOIMENTO A INSERIR]
-                </p>
-                <footer className="label mt-auto">[Nome], [idade] anos</footer>
-              </blockquote>
+        <RevealGroup as="ul" className="mt-9 grid gap-5 md:grid-cols-3">
+          {feedbacks.map((fb, i) => (
+            <RevealItem as="li" key={fb.img}>
+              <div className="card overflow-hidden h-full">
+                <img
+                  src={`/img/${fb.img}.webp`}
+                  alt={fb.alt}
+                  width={800}
+                  height={600}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-auto object-cover rounded-[var(--radius-lg)]"
+                />
+              </div>
             </RevealItem>
           ))}
         </RevealGroup>
