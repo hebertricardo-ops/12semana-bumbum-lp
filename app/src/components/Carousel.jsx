@@ -80,6 +80,19 @@ export function PagesCarousel() {
           </div>
         )}
       </div>
+
+      {/* CTA pós-carrossel: primeira oportunidade de conversão na página.
+         Texto conecta a curiosidade ("olhou por dentro") com a próxima ação. */}
+      <div className="wrap mt-8 text-center">
+        <button
+          type="button"
+          onClick={() => document.getElementById('preco')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+          className="btn btn-primary px-8 text-[1rem]"
+          style={{ minHeight: 50 }}
+        >
+          Quero ver os planos
+        </button>
+      </div>
     </section>
   );
 }
