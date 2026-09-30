@@ -4,3 +4,7 @@ dist
 *.log
 .DS_Store
 Thumbs.db
+# Fontes PNG/JPG das imagens de seção e mockups (WebP/AVIF já commitados)
+app/public/img/*.png
+app/public/img/*.jpg
+app/public/img/*.jpeg
