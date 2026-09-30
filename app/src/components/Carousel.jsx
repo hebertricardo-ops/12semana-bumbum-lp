@@ -87,8 +87,8 @@ export function PagesCarousel() {
         <button
           type="button"
           onClick={() => document.getElementById('preco')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-          className="btn btn-primary px-8 text-[1rem]"
-          style={{ minHeight: 50 }}
+          className="btn btn-primary px-14 text-[1.2rem]"
+          style={{ minHeight: 56, minWidth: 280 }}
         >
           Quero ver os planos
         </button>
